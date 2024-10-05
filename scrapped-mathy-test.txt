@@ -1,0 +1,14 @@
+3 cm = a # Assert
+
+{
+  width ⇐
+  height ⇐
+  material ⇐
+
+  5 m      = width
+  0.5 m    = height
+  concrete = material
+
+} = roadSegment
+
+roadSegment . length ← ( 5 m ) = fullRoad
